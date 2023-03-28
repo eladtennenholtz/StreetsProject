@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "rootDir": "./",
+    "outDir": "dist",
+    "watch": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "compileOnSave": false,
+  "include": ["src/**/*", "rabbit/**/*"],
+  "exclude": ["dist/**/*", "node_modules"]
+}
